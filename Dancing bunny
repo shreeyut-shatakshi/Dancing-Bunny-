@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Dancing Rabbit</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffccf9;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            animation: hop 1s infinite;
+        }
+        @keyframes hop {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-30px); }
+        }
+        h1 {
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meet Your Dancing Bunny!</h1>
+        <img src="https://i.pinimg.com/originals/a4/9c/fb/a49cfb5b17401e7c33b441bf25a287e2.gif" alt="Cute Dancing Rabbit">
+    </div>
+</body>
+</html>
